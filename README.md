@@ -1,7 +1,7 @@
 Data Structure & Algorithm Roadmap
 ---
 
-## 🗓️ **Week 1: Arrays & Strings**
+## 🗓️ **Week 1: Arrays & Strings** [Detail](Array/Arrays.md)
 
 ### 🎯 Concepts
 

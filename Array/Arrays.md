@@ -4,7 +4,7 @@
 
 ### ✅ **Key Concepts to Master**
 
-1. **Array Basics** [Detail](Array/Arrays.md)
+1. **Array Basics** 
 
     * Indexing (0-based, random access)
     * Time Complexity:
