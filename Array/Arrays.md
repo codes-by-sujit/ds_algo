@@ -13,7 +13,7 @@
         * Search: O(n)
         * Insert/Delete (unsorted): O(1) / O(n)
 
-2. **Prefix Sum / Running Sum**
+2. **Prefix Sum / Running Sum** [Detail](Prefix_Sum/Explanation.md)
 
     * Used for range queries, subarray sums
 
