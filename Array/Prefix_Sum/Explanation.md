@@ -62,7 +62,11 @@ Used to track how many times a certain cumulative sum has occurred — especiall
 
 * Count of subarrays with sum K
 * Detecting subarrays with 0 sum
-
+---
+## Important Formula 
+```
+    prefix_sum(i,j) = prefix_sum(j)-prefix_sum(i-1) [Where j>i & i>0]
+```
 ---
 [Simple Java Explanation](simple_java_explanation.md)
 

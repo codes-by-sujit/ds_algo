@@ -116,5 +116,3 @@
 * Practice **explaining brute force** then improving to optimal — shows problem-solving growth.
 
 ---
-
-Would you like this converted into a **daily revision tracker** or **quiz format** to reinforce learning?

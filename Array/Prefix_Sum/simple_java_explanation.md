@@ -49,7 +49,3 @@ Prefix sum:     2 5 4 10 12
   `prefixSum[i] = prefixSum[i - 1] + arr[i]`
 
 So it builds up a **cumulative total** from left to right.
-
----
-
-Let me know if you want this extended to solve a real problem like **Subarray Sum Equals K** in Java.
