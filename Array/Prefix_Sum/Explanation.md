@@ -71,4 +71,10 @@ Used to track how many times a certain cumulative sum has occurred — especiall
 [Simple Java Explanation](simple_java_explanation.md)
 
 ### Related Problems 
-- [Subarray with sum K](subarray_sum_equals_k.md) 
+- #### Calculate Prefix Sum 
+- #### Range Sum Query - Immutable (LeetCode #303)
+- #### Subarray Sum Equals K (LeetCode #560)
+- #### Continuous Subarray Sum (LeetCode #523)
+- #### Subarray Sums Divisible by K (LeetCode #974)
+- #### Product of Array Except Self (LeetCode #238)
+- #### Path Sum III (LeetCode #437)
