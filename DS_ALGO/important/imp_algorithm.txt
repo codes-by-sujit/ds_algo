@@ -1,0 +1,2 @@
+1) Dutch flag sorting algorithm
+2) Moore's Voting Algorithm
