@@ -1,26 +1,23 @@
-package com.strivers.binarysearch.arrays1d;
+package com.strivers.revision.aug20;
 
 import org.junit.jupiter.api.Test;
 
 public class FindPeakElement {
-    public int findPeakElement(int[] nums) {
-        if(nums.length==1) return 0;
-        int n=nums.length-1;
-        if(nums[n]>nums[n-1]) return n;
-        if(nums[0]>nums[1]) return 0;
+    private int findPeakElement(int[] arr){
+        int n=arr.length-1;
+        int start=0,end=n;
+        if(arr.length==1) return 0;
+        if(arr[0]>arr[1]) return 0;
+        if(arr[n]>arr[n-1]) return n;
 
-        int start=1;
-        int end=n-1;
         while(start<=end){
             int mid=(start+end)/2;
-            if(nums[mid-1]<nums[mid] && nums[mid]>nums[mid+1]){
+            if(arr[mid]>arr[mid-1] && arr[mid]>arr[mid+1])
                 return mid;
-            }
-            if(nums[mid]>nums[mid-1]){
+            else if(arr[mid]>arr[mid-1])
                 start=mid+1;
-            } else{
+            else
                 end=mid-1;
-            }
         }
         return -1;
     }
