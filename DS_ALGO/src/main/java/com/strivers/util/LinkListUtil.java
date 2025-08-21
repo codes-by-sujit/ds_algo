@@ -9,4 +9,15 @@ public class LinkListUtil {
             n=n.next;
         }
     }
+
+    public static ListNode getList(int[] arr){
+        ListNode head = new ListNode(arr[0]);
+        ListNode first = head;
+        for(int i=1;i<arr.length;i++){
+            ListNode n= new ListNode(arr[i]);
+            first.next=n;
+            first=n;
+        }
+        return head;
+    }
 }
