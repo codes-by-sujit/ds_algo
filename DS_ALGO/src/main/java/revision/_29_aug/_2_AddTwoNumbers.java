@@ -4,6 +4,9 @@ import com.strivers.util.LinkListUtil;
 import com.strivers.util.ListNode;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Sample COmmit
+ */
 public class _2_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int sum=0;
