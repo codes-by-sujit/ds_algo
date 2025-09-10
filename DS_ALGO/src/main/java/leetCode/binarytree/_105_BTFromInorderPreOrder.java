@@ -5,7 +5,7 @@ import util.tree.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class _105_BTFromInorderPostOrder {
+public class _105_BTFromInorderPreOrder {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
 
         Map<Integer,Integer> inMap=new HashMap<>();
