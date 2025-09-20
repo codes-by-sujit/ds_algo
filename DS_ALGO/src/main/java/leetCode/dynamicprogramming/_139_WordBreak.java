@@ -30,9 +30,6 @@ public class _139_WordBreak {
                 }
             }
         }
-
-        for(boolean b: dp)
-            System.out.print(b+" |");
         return dp[s.length()];
     }
 
