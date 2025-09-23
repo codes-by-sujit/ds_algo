@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class InfixToPostFix {
 
-    private String convertToPostfix(String expr){
+    public String convertToPostfix(String expr){
         StringBuffer result=new StringBuffer("");
 
         //To hold the operators we need to follow stack
