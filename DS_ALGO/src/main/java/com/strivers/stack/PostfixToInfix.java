@@ -24,6 +24,7 @@ public class PostfixToInfix {
         String str2="abcd^e-fgh*+^*+i-";
         System.out.println(this.convert(str1));
         System.out.println(this.convert(str2));
+        System.out.println(this.convert("(A+B)*(C+D)"));
     }
 
 }

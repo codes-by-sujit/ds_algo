@@ -63,7 +63,7 @@ public class InfixToPostFix {
 
     @Test
     public void tc1(){
-        String expr="a+b*c";
+        String expr="(A+B)*(C+D)";
         System.out.println(this.convertToPostfix(expr));
     }
 
