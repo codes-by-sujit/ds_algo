@@ -1,6 +1,5 @@
-package com.strivers.util;
+package util;
 
-import java.lang.reflect.Type;
 import java.util.List;
 
 public class ArrayUtil {

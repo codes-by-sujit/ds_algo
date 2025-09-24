@@ -1,9 +1,7 @@
 package com.strivers.revision.aug16;
 
-import com.strivers.util.ArrayUtil;
+import util.ArrayUtil;
 import org.junit.jupiter.api.Test;
-
-import java.lang.reflect.Array;
 
 public class MergeSort {
 

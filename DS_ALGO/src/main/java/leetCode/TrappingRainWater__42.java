@@ -1,6 +1,5 @@
 package leetCode;
 
-import com.strivers.util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 
 public class TrappingRainWater__42 {

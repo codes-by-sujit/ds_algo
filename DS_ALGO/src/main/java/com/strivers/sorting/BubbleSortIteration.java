@@ -1,6 +1,6 @@
 package com.strivers.sorting;
 
-import com.strivers.util.ArrayUtil;
+import util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 
 public class BubbleSortIteration {

@@ -1,7 +1,7 @@
 package com.strivers.array.med;
 
 
-import com.strivers.util.ArrayUtil;
+import util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

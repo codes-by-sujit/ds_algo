@@ -1,6 +1,6 @@
 package com.strivers.revision.aug17;
 
-import com.strivers.util.ArrayUtil;
+import util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 
 public class sortarray012 {

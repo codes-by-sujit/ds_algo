@@ -1,9 +1,7 @@
 package leetCode;
 
-import com.strivers.util.ArrayUtil;
+import util.ArrayUtil;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
 
 public class ProductArrayExceptSelf__238 {
     public int[] productExceptSelf(int[] nums) {

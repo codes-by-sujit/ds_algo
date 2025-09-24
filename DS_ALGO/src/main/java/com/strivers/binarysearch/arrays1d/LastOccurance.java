@@ -1,6 +1,6 @@
 package com.strivers.binarysearch.arrays1d;
 
-import com.strivers.util.ArrayUtil;
+import util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 
 public class LastOccurance {

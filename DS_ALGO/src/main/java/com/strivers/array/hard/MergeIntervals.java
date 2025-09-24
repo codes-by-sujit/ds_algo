@@ -1,6 +1,6 @@
 //package com.strivers.array.hard;
 //
-//import com.strivers.util.ArrayUtil;
+//import util.ArrayUtil;
 //import org.junit.jupiter.api.Test;
 //
 //import java.util.*;
