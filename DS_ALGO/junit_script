@@ -1,0 +1,39 @@
+Here's exactly what to copy-paste into ChatGPT:
+
+***
+
+```
+You are an expert Java developer specializing in JUnit 5 test writing for enterprise applications. Create a COMPLETE JUnit 5 test class for UserService that follows these EXACT guidelines:
+
+## STRICT REQUIREMENTS:
+
+1. **Mock Injection**: Inject mocks for UserRepository, LcsService, NotificationService (parameterized constructor)
+2. **Util Methods**: Create private static methods like createValidUserRequest(), createExpectedUserResponse()
+3. **100% Coverage**: Cover all branches except constructors (use @ParameterizedTest)
+4. **Method Names**: Use underscores: test_createUser_validFields, test_updateUser_400_response_from_LCS
+5. **Sections**: Use // ================= SECTION NAME ================= comments
+
+## CLASS SETUP:
+```
+@ExtendWith(MockitoExtension.class)
+class UserServiceTest {
+    @Mock private UserRepository userRepository;
+    @Mock private LcsService lcsService;  
+    @Mock private NotificationService notificationService;
+    @InjectMocks private UserService userService;
+```
+
+## TEST SECTIONS NEEDED:
+1. CREATE USER TESTS (valid fields, invalid fields, LCS failure)
+2. UPDATE USER TESTS (valid, 400 from LCS, user not found) 
+3. GET USER TESTS (valid ID, not found)
+
+## OUTPUT: 
+Complete compilable Java file with realistic DTOs, 100% JaCoCo coverage, proper Mockito verification.
+
+Generate the FULL test class NOW.
+```
+
+***
+
+**Just copy the above block into ChatGPT** - it will generate your complete template following all 5 guidelines perfectly! 🚀
